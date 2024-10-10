@@ -1,7 +1,7 @@
-from src.secret import GEMINI_API_KEY
+from secret import GEMINI_API_KEY
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
-import src.prompts as prompts
+import prompts as prompts
 
 class LLM:
     def __init__(self):

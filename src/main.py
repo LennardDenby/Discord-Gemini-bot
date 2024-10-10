@@ -1,5 +1,5 @@
-from src.LLM import LLM
-from src.secret import DISCORD_BOT_API_KEY
+from LLM import LLM
+from secret import DISCORD_BOT_API_KEY
 import discord
 from discord.ext import commands
 
