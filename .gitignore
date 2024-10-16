@@ -1,3 +1,4 @@
 src/secret.py
 src/prompts.py
+Dockerfile
 **/__pycache__/
