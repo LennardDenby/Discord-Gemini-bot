@@ -5,12 +5,8 @@ import prompts
 
 class LLM:
     def __init__(self):
-        
         genai.configure(api_key=GEMINI_API_KEY)
-        for e in genai.list_models():
-            print(e)
         self.change_system_instruction("")
-        self.start_image_generator()
     
     def promptLLM(self, prompt: str, author: str) -> str:
         response = self.model.generate_content(
